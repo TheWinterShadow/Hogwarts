@@ -1,0 +1,43 @@
+[project]
+site_name = "Hogwarts"
+site_url = "https://hogwarts.thewintershadow.com"
+site_description = "Dashboard with different functionalities."
+site_author = "TheWinterShadow"
+copyright = "Copyright &copy; 2026 TheWinterShadow &mdash; MIT License"
+docs_dir = "docs"
+site_dir = "site"
+
+repo_name = "TheWinterShadow/Hogwarts"
+repo_url = "https://github.com/TheWinterShadow/Hogwarts"
+edit_uri = "edit/main/docs/"
+
+nav = [
+  { "🏠 Home" = "index.md" }
+]
+
+[project.theme]
+name = "material"
+features = [
+  "navigation.instant",
+  "navigation.tabs"
+]
+
+[project.theme.icon]
+logo = "fontawesome/solid/hat-wizard"
+repo = "fontawesome/brands/github"
+
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: light)"
+scheme      = "default"
+primary     = "amber"
+accent      = "red"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: dark)"
+scheme      = "slate"
+primary     = "amber"
+accent      = "red"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
